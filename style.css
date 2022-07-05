@@ -3,3 +3,46 @@
   margin: 0;
   padding: 0;
 }
+
+.header-part {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/donation3.jpg");
+  background-repeat: no-repeat;
+
+  background-position: center;
+  color: #fff;
+}
+
+.header-part h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.header-part p{
+    font-size: 25px;
+    text-align: center;
+
+    margin-top: 15px;
+}
+
+.header-part a{
+    text-decoration: none;
+    background-color: teal;
+
+    padding: 15px 25px;
+    margin-top: 25px;
+
+    font-weight: bold;
+    color: #fff;
+
+    letter-spacing: 1px;
+    font-size: 25px;
+
+    border-radius: 5px;
+}
